@@ -1,0 +1,23 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<table>
+    @foreach (var v in (IEnumerable<User>)ViewData["Succefuully "])
+    {
+
+
+    <tr>
+        <td>
+            @v.Id;
+            </td>
+        <td>
+            @v.Name;
+            </td>
+        
+        </tr>
+    }
+    </table>
