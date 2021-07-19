@@ -16,7 +16,7 @@ namespace WebApplication1.Controllers
         }
         public IActionResult ViewBagSingleValue()
         {
-            ViewBag.Name = "Yogesh";
+            ViewBag.Name = "Yogesh";//using viewBag
             return View();
         }
        
